@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:8080"
+const baseUrl = "https://eth-btc-crypto-prices-app.herokuapp.com"
 
 const getCoinbase = async (endpoint) => {
     const data = {
